@@ -8,14 +8,14 @@
  */
 size_t count_list_elements(const listint_t *head)
 {
-	size_t num = 0;
+        size_t num = 0;
 
-	while (h)
-	{
-		num++;
-		h = h->next;
-	}
+        while (head)
+        {
+                num++;
+                head = head->next;
+        }
 
-	return (num);
+        return (num);
 }
 
